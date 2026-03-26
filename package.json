@@ -1,0 +1,14 @@
+{
+  "name": "site_cursor",
+  "private": true,
+  "scripts": {
+    "build:images": "python3 scripts/generate_images.py",
+    "build:images:sharp": "node scripts/generate-images.mjs",
+    "build:minify": "python3 scripts/minify_assets.py"
+  },
+  "devDependencies": {
+    "csso-cli": "latest",
+    "sharp": "latest",
+    "terser": "latest"
+  }
+}

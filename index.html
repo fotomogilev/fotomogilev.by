@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фото на документы в Могилёве — срочное фото за 10-15 минут</title>
+  <meta name="description" content="Фото на документы в Могилёве: паспорт, виза, водительские права, ВНЖ. Понятный процесс, аккуратная обработка, печать на месте.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap&subset=cyrillic,latin" rel="stylesheet">
+  <link rel="icon" type="image/png" href="faviphoto.png">
+  <link rel="stylesheet" href="styles.min.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="header__container">
+      <div class="header__top">
+        <a href="#top" class="header__logo">
+          <picture>
+            <source type="image/webp" srcset="logo-w400.webp 400w, logo-w800.webp 800w" sizes="(max-width: 768px) 1px, 258px">
+            <img src="logo-w800.png" srcset="logo-w400.png 400w, logo-w800.png 800w" sizes="(max-width: 768px) 1px, 258px" alt="Фото на документы Могилёв" class="header__logo-img" decoding="async">
+          </picture>
+        </a>
+
+        <div class="header__info">
+          <a href="https://yandex.by/maps/-/CPBl58iA" target="_blank" rel="noopener" class="header__address">г. Могилёв, пр-т Мира 20</a>
+          <div class="header__schedule">
+            <span class="header__schedule-label">Будни</span>
+            <span>9:00 – 19:00</span>
+          </div>
+          <div class="header__schedule">
+            <span class="header__schedule-label">Выходные</span>
+            <span>10:00 – 16:00</span>
+          </div>
+          <div class="header__phones">
+            <a href="tel:+375296333944" class="header__phone header__phone--bold">+375 29 633 39 44</a>
+            <a href="tel:+375447392136" class="header__phone">+375 44 739 21 36</a>
+            <a href="tel:+375222775478" class="header__phone">+375 22 277 54 78</a>
+          </div>
+        </div>
+
+        <button type="button" class="header__burger burger" id="burger-btn" aria-label="Меню">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+
+      <nav class="header__nav nav" id="header-nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--services">
+            <details class="nav-services" id="header-services-menu">
+              <summary class="nav__link nav-services__summary">Услуги</summary>
+              <ul class="nav-services__menu">
+                <li class="nav-services__item"><a href="#service-documents" class="nav-services__link">Фото на документы</a></li>
+                <li class="nav-services__item nav-services__item--nested">
+                  <a href="#service-restoration" class="nav-services__link">Реставрация фотографий</a>
+                  <ul class="nav-services__submenu">
+                    <li><a href="#service-restoration-damaged" class="nav-services__link nav-services__link--sub">Восстановление повреждённых снимков</a></li>
+                    <li><a href="#service-restoration-merge" class="nav-services__link nav-services__link--sub">Объединение фотографий</a></li>
+                    <li><a href="#service-restoration-color" class="nav-services__link nav-services__link--sub">Приведение фотографий из ЧБ в цветной</a></li>
+                  </ul>
+                </li>
+                <li class="nav-services__item"><a href="#service-print" class="nav-services__link">Печать фотографий</a></li>
+                <li class="nav-services__item"><a href="#service-home" class="nav-services__link">Выезд фотографа на дом</a></li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+        </ul>
+        <div class="nav__mobile-contacts">
+          <div class="nav__mobile-phones">
+            <a href="tel:+375296333944" class="nav__mobile-phone nav__mobile-phone--bold">+375 29 633 39 44</a>
+            <a href="tel:+375447392136" class="nav__mobile-phone">+375 44 739 21 36</a>
+            <a href="tel:+375222775478" class="nav__mobile-phone">+375 22 277 54 78</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Фото на документы в Могилёве</h1>
+          <p class="hero__lead">Профессиональная съёмка, выбор лучшего кадра и печать на месте. Если фото не примут — бесплатно переснимем и перепечатаем</p>
+          <ul class="hero__features">
+            <li class="hero__feature">Фото готово за 10-15 минут</li>
+            <li class="hero__feature">Работаем с 1991 года</li>
+          </ul>
+          <div class="hero__buttons">
+            <a href="#form" class="button button--primary">Заказать звонок</a>
+            <a href="https://yandex.ru/maps/?rtext=~53.909157,30.340110&rtt=auto" target="_blank" rel="noopener noreferrer" class="button button--secondary">Построить маршрут</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <picture>
+            <source type="image/webp" srcset="banner-w720.webp 720w, banner-w1240.webp 1240w" sizes="(max-width: 768px) 100vw, (max-width: 1240px) 50vw, 620px">
+            <img src="banner-w1240.png" srcset="banner-w720.png 720w, banner-w1240.png 1240w" sizes="(max-width: 768px) 100vw, (max-width: 1240px) 50vw, 620px" alt="Фото на документы в Могилёве" class="hero__img" fetchpriority="high" decoding="async">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-blocks" id="about">
+      <div class="container">
+        <article class="info-block">
+          <div class="info-block__image">
+            <picture>
+              <source type="image/webp" srcset="hero-image-w720.webp 720w, hero-image-w1200.webp 1200w" sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="hero-image-w1200.png" srcset="hero-image-w720.png 720w, hero-image-w1200.png 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Выбор лучшего снимка" class="info-block__img" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="info-block__content">
+            <h2 class="info-block__title">Вы выбираете лучший снимок</h2>
+            <p class="info-block__text info-block__text--mobile-only">Во время съёмки мы делаем несколько кадров, чтобы у вас был выбор. Фотограф подсказывает позу и поворот головы, а вы сразу видите, как получились снимки. Можно без спешки сравнить варианты, присмотреться к выражению лица и мелким деталям. Вы выбираете тот снимок, в котором вы уверены и который вам действительно нравится</p>
+            <ul class="info-block__bullet-list info-block__bullet-list--desktop-only" aria-label="Подробности">
+              <li class="info-block__bullet">Во время съёмки мы делаем несколько кадров, чтобы у вас был выбор</li>
+              <li class="info-block__bullet">Фотограф подсказывает позу и поворот головы, а вы сразу видите, как получились снимки</li>
+              <li class="info-block__bullet">Можно без спешки сравнить варианты, присмотреться к выражению лица и мелким деталям</li>
+              <li class="info-block__bullet">Вы выбираете тот снимок, в котором вы уверены и который вам действительно нравится</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="info-block info-block--reverse">
+          <div class="info-block__image">
+            <picture>
+              <source type="image/webp" srcset="services/photo_place_camera-w720.webp 720w, services/photo_place_camera-w1200.webp 1200w" sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="services/photo_place_camera-w1200.png" srcset="services/photo_place_camera-w720.png 720w, services/photo_place_camera-w1200.png 1200w" sizes="(max-width: 768px) 100vw, 50vw" alt="Комната комфортной подготовки к съемке" class="info-block__img" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="info-block__content">
+            <h2 class="info-block__title">Комфортная подготовка к съемке</h2>
+            <p class="info-block__text">Перед съёмкой вы не спеша подготовитесь в отдельном помещении. Здесь удобно поправить прическу, освежить макияж, переодеться или просто настроиться на процесс. Никто не торопит, вы спокойно смотрите на себя в зеркало и приводите внешний вид в порядок. Наша задача, чтобы к моменту съёмки вы чувствовали себя уверенно и комфортно</p>
+          </div>
+        </article>
+
+        <div class="info-list" aria-label="Преимущества">
+          <article class="info-list__item">
+            <div class="info-list__row">
+              <img src="icons/location.svg" alt="" class="info-list__icon info-list__icon--tall" aria-hidden="true">
+              <div class="info-list__body">
+                <p class="info-list__title">
+                  <span class="info-list__title-text">Удобное расположение</span>
+                </p>
+                <p class="info-list__text">Мы находимся в самом центре Могилёва. Рядом остановки общественного транспорта и парковка</p>
+              </div>
+            </div>
+          </article>
+          <article class="info-list__item">
+            <div class="info-list__row">
+              <img src="icons/years-trust.svg" alt="" class="info-list__icon info-list__icon--tall" aria-hidden="true">
+              <div class="info-list__body">
+                <p class="info-list__title">
+                  <span class="info-list__title-text">Нам доверяют более 35 лет</span>
+                </p>
+                <p class="info-list__text">Фотостудия работает с 1991 года. Нас знают и рекомендуют жители города</p>
+              </div>
+            </div>
+          </article>
+          <article class="info-list__item">
+            <div class="info-list__row">
+              <img src="icons/camera.svg" alt="" class="info-list__icon info-list__icon--tall" aria-hidden="true">
+              <div class="info-list__body">
+                <p class="info-list__title">
+                  <span class="info-list__title-text">Опытные фотографы</span>
+                </p>
+                <p class="info-list__text">С вами работают специалисты с опытом более 15 лет</p>
+              </div>
+            </div>
+          </article>
+          <article class="info-list__item info-list__item--guarantee">
+            <p class="info-list__title">
+              <span class="info-list__title-text">Если фотографию не приняли – переснимаем бесплатно</span>
+            </p>
+            <p class="info-list__text">Мы делаем фото с учётом требований паспортных столов, госучреждений и визовых центров. Если нужно, заранее подскажем, как лучше расположиться, чтобы снимок точно соответствовал правилам. Если фотографию всё же не принимают, вы просто приходите к нам — мы бесплатно переснимаем и перепечатываем фото</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="proud-photos" id="proud-photos">
+      <div class="container">
+        <h2 class="section-title proud-photos__title">Наши работы</h2>
+        <button type="button" class="proud-photos__more" id="proud-photos-more" aria-label="Смотрите больше">
+          <span class="proud-photos__more-text">Смотрите больше</span>
+          <span class="proud-photos__more-arrow" aria-hidden="true">→</span>
+        </button>
+        <div class="proud-photos__scroller" id="proud-photos-scroller">
+          <div class="proud-photos__track" id="proud-photos-track">
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/1-w320.webp 320w, people2/1-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/1-w640.png" srcset="people2/1-w320.png 320w, people2/1-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 1" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/2-w320.webp 320w, people2/2-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/2-w640.png" srcset="people2/2-w320.png 320w, people2/2-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 2" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/sophy-w320.webp 320w, people2/sophy-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/sophy-w640.png" srcset="people2/sophy-w320.png 320w, people2/sophy-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 3" class="proud-photos__img--contain" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/4-w320.webp 320w, people2/4-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/4-w640.png" srcset="people2/4-w320.png 320w, people2/4-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 4" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/5-w320.webp 320w, people2/5-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/5-w640.png" srcset="people2/5-w320.png 320w, people2/5-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 5" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/6-w320.webp 320w, people2/6-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/6-w640.png" srcset="people2/6-w320.png 320w, people2/6-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 6" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/7-w320.webp 320w, people2/7-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/7-w640.png" srcset="people2/7-w320.png 320w, people2/7-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 7" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/8-w320.webp 320w, people2/8-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/8-w640.png" srcset="people2/8-w320.png 320w, people2/8-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 8" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/9-w320.webp 320w, people2/9-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/9-w640.png" srcset="people2/9-w320.png 320w, people2/9-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 9" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/10-w320.webp 320w, people2/10-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/10-w640.png" srcset="people2/10-w320.png 320w, people2/10-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 10" loading="lazy" decoding="async">
+              </picture>
+            </article>
+            <article class="proud-photos__card">
+              <picture>
+                <source type="image/webp" srcset="people2/11-w320.webp 320w, people2/11-w640.webp 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px">
+                <img src="people2/11-w640.png" srcset="people2/11-w320.png 320w, people2/11-w640.png 640w" sizes="(max-width: 480px) 45vw, (max-width: 1024px) 220px, 320px" alt="Портрет 11" loading="lazy" decoding="async">
+              </picture>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-lite" id="services-lite">
+      <div class="container services-lite__container">
+        <h2 class="section-title">Наши услуги</h2>
+
+        <article class="services-lite__item services-lite__item--text-left" id="service-documents">
+          <div class="services-lite__media services-lite__media--stack">
+            <picture>
+              <source type="image/webp" srcset="services/passport-w560.webp 560w, services/passport-w1040.webp 1040w" sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="services/passport-w1040.jpg" srcset="services/passport-w560.jpg 560w, services/passport-w1040.jpg 1040w" sizes="(max-width: 768px) 100vw, 50vw" alt="Фото на документы" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="services-lite__content">
+            <h3 class="services-lite__title">Фото на документы</h3>
+            <p class="services-lite__time">Время: 10-15 минут</p>
+            <p>Профессиональное фото на документы с соблюдением всех официальных требований. Сделаем несколько кадров, подберём лучший и распечатаем в нужном формате</p>
+            <h4 class="services-lite__subtitle">Подходит для:</h4>
+            <ul class="services-lite__list services-lite__list--disc">
+              <li>паспорта</li>
+              <li>визы</li>
+              <li>водительского удостоверения</li>
+              <li>вида на жительство</li>
+              <li>студенческого билета</li>
+              <li>пенсионного удостоверения</li>
+              <li>служебного удостоверения</li>
+              <li>других документов</li>
+            </ul>
+            <h4 class="services-lite__subtitle">Как проходит съёмка</h4>
+            <ol class="services-lite__list services-lite__list--decimal">
+              <li>Делаем несколько кадров</li>
+              <li>Вы выбираете лучший</li>
+              <li>При необходимости делаем лёгкую коррекцию</li>
+              <li>Печатаем фотографии сразу на месте</li>
+            </ol>
+            <h4 class="services-lite__subtitle">Преимущества</h4>
+            <ul class="services-lite__list services-lite__list--disc">
+              <li>соблюдаем требования разных стран и документов</li>
+              <li>корректируем яркость и контраст</li>
+              <li>аккуратная ретушь без изменения внешности</li>
+              <li>готовые фотографии через 10-15 минут</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="services-lite__item services-lite__item--restoration" id="service-restoration">
+          <div class="services-lite__content services-lite__content--full">
+            <h3 class="services-lite__title">Реставрация фотографий</h3>
+
+            <div class="services-lite__subitems">
+              <article class="services-lite__subitem" id="service-restoration-damaged">
+                <div class="services-lite__media-column">
+                  <div class="services-lite__media services-lite__media--subitem">
+                    <picture>
+                      <source type="image/webp" srcset="services/restavration2-w560.webp 560w, services/restavration2-w1040.webp 1040w" sizes="(max-width: 768px) 100vw, 50vw">
+                      <img src="services/restavration2-w1040.png" srcset="services/restavration2-w560.png 560w, services/restavration2-w1040.png 1040w" sizes="(max-width: 768px) 100vw, 50vw" alt="Реставрация старых фотографий" loading="lazy" decoding="async">
+                    </picture>
+                  </div>
+                  <div class="services-lite__media services-lite__media--subitem">
+                    <picture>
+                      <source type="image/webp" srcset="services/restavration3-w560.webp 560w, services/restavration3-w1040.webp 1040w" sizes="(max-width: 768px) 100vw, 50vw">
+                      <img src="services/restavration3-w1040.png" srcset="services/restavration3-w560.png 560w, services/restavration3-w1040.png 1040w" sizes="(max-width: 768px) 100vw, 50vw" alt="Восстановление повреждённых снимков" loading="lazy" decoding="async">
+                    </picture>
+                  </div>
+                </div>
+                <div class="services-lite__subitem-content">
+                  <h4 class="services-lite__subtitle">Восстановление повреждённых снимков</h4>
+                  <p>Восстанавливаем старые, повреждённые или выцветшие фотографии</p>
+                  <h4 class="services-lite__subtitle">Что можно исправить</h4>
+                  <ul class="services-lite__list services-lite__list--disc">
+                    <li>царапины и трещины</li>
+                    <li>потертости</li>
+                    <li>выцветшие участки</li>
+                    <li>разрывы фотографии</li>
+                  </ul>
+                  <h4 class="services-lite__subtitle">Результат</h4>
+                  <p>Вы получите обновлённую фотографию, максимально близкую к оригиналу</p>
+                  <h4 class="services-lite__subtitle">Дополнительно</h4>
+                  <p>Распечатка восстановленных фотографий в новом качестве в нужном формате</p>
+                </div>
+              </article>
+
+              <article class="services-lite__subitem services-lite__subitem--reverse" id="service-restoration-merge">
+                <div class="services-lite__media services-lite__media--subitem">
+                  <picture>
+                    <source type="image/webp" srcset="services/sovm-w560.webp 560w, services/sovm-w1040.webp 1040w" sizes="(max-width: 768px) 100vw, 50vw">
+                    <img src="services/sovm-w1040.jpg" srcset="services/sovm-w560.jpg 560w, services/sovm-w1040.jpg 1040w" sizes="(max-width: 768px) 100vw, 50vw" alt="Объединение фотографий" loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <div class="services-lite__subitem-content">
+                  <h4 class="services-lite__subtitle">Объединение фотографий</h4>
+                  <p>Соединяем несколько фотографий в один снимок. Удобно для семейных коллажей, памятных фотографий или восстановления старых изображений</p>
+                  <h4 class="services-lite__subtitle">Что можно сделать</h4>
+                  <ul class="services-lite__list services-lite__list--disc">
+                    <li>объединить людей с разных фото</li>
+                    <li>создать семейный коллаж</li>
+                    <li>добавить отсутствующего человека на фото</li>
+                    <li>сделать композицию из нескольких снимков</li>
+                  </ul>
+                  <h4 class="services-lite__subtitle">Как проходит работа</h4>
+                  <ol class="services-lite__list services-lite__list--decimal">
+                    <li>Вы приносите фотографии</li>
+                    <li>Обсуждаем желаемый результат</li>
+                    <li>Делаем цифровую обработку</li>
+                    <li>Печатаем готовый результат</li>
+                  </ol>
+                </div>
+              </article>
+
+              <article class="services-lite__subitem" id="service-restoration-color">
+                <div class="services-lite__media services-lite__media--subitem">
+                  <picture>
+                    <source type="image/webp" srcset="services/print-w560.webp 560w, services/print-w1040.webp 1040w" sizes="(max-width: 768px) 100vw, 50vw">
+                    <img src="services/print-w1040.jpg" srcset="services/print-w560.jpg 560w, services/print-w1040.jpg 1040w" sizes="(max-width: 768px) 100vw, 50vw" alt="Переведение фотографии из чёрно-белой в цветную" loading="lazy" decoding="async">
+                  </picture>
+                </div>
+                <div class="services-lite__subitem-content">
+                  <h4 class="services-lite__subtitle">Переведение фотографии из чёрно-белой в цветную</h4>
+                  <p>Старым черно-белым фотографиям добавим естественные цвета. Сохраним детали, тон кожи и атмосферу снимка</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <article class="services-lite__item services-lite__item--text-left" id="service-print">
+          <div class="services-lite__media">
+            <picture>
+              <source type="image/webp" srcset="services/5-w560.webp 560w, services/5-w1040.webp 1040w" sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="services/5-w1040.jpg" srcset="services/5-w560.jpg 560w, services/5-w1040.jpg 1040w" sizes="(max-width: 768px) 100vw, 50vw" alt="Печать фотографий" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="services-lite__content">
+            <h3 class="services-lite__title">Печать фотографий</h3>
+            <p>Печатаем фотографии с телефона, флешки или других носителей. Распечатать можно в любом размере, до 30x40 см (A3)</p>
+            <h4 class="services-lite__subtitle">Возможности</h4>
+            <ul class="services-lite__list services-lite__list--disc">
+              <li>печать цветных и чёрно-белых фотографий</li>
+              <li>перевод чёрно-белых снимков в цвет</li>
+              <li>печать разных размеров</li>
+              <li>печать старых оцифрованных фото</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="services-lite__item services-lite__item--text-right" id="service-home">
+          <div class="services-lite__media">
+            <picture>
+              <source type="image/webp" srcset="services/to_home-w560.webp 560w, services/to_home-w1040.webp 1040w" sizes="(max-width: 768px) 100vw, 50vw">
+              <img src="services/to_home-w1040.jpg" srcset="services/to_home-w560.jpg 560w, services/to_home-w1040.jpg 1040w" sizes="(max-width: 768px) 100vw, 50vw" alt="Выезд фотографа на дом" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="services-lite__content">
+            <h3 class="services-lite__title">Выезд фотографа на дом</h3>
+            <p>Фотограф приедет к вам домой и сделает фото на документы. Фотографии обрабатываем и изготавливаем нужное по размеру фото</p>
+            <h4 class="services-lite__subtitle">Подходит если</h4>
+            <ul class="services-lite__list services-lite__list--disc">
+              <li>человеку сложно выйти из дома</li>
+              <li>пожилой возраст</li>
+              <li>ограниченная подвижность</li>
+              <li>маленький ребёнок</li>
+              <li>просто не хочется никуда идти</li>
+            </ul>
+            <h4 class="services-lite__subtitle">Как проходит</h4>
+            <ol class="services-lite__list services-lite__list--decimal">
+              <li>Вы оставляете заявку</li>
+              <li>Согласовываем время</li>
+              <li>Фотограф приезжает с оборудованием</li>
+              <li>Готовые фото печатаются</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="services-lite__item services-lite__item--list-only">
+          <div class="services-lite__content services-lite__content--full">
+            <h3 class="services-lite__title">Что ещё мы умеем</h3>
+            <ul class="services-lite__list services-lite__list--disc">
+              <li>Отпечатать фото размером от 9×12 см до А3 (30×40 см)</li>
+              <li>Распечатать фото с любого носителя: телефон, флешка, карта памяти, диск и пр.</li>
+              <li>Сделать чёрно-белую или цветную печать любого документа или фотографии</li>
+              <li>Сделать ксерокопию / фотокопию паспорта или другого документа</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="container">
+        <h2 class="section-title">Процесс работы</h2>
+        <div class="process__grid">
+          <article class="card process__card">
+            <span class="process__number">1</span>
+            <h3 class="card__title">Просто приходите</h3>
+            <p class="card__text">Без записи и долгих очередей. Приходите, когда удобно</p>
+          </article>
+          <article class="card process__card">
+            <span class="process__number">2</span>
+            <h3 class="card__title">Быстрая съёмка</h3>
+            <p class="card__text">Делаем несколько кадров и сразу показываем результат</p>
+          </article>
+          <article class="card process__card">
+            <span class="process__number">3</span>
+            <h3 class="card__title">Выбираете лучшее</h3>
+            <p class="card__text">Просматриваете варианты и выбираете понравившийся снимок</p>
+          </article>
+          <article class="card process__card">
+            <span class="process__number">4</span>
+            <h3 class="card__title">Печатаем фото</h3>
+            <p class="card__text">Печатаем на месте — забираете готовые фото за 10 минут</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="section-title">Отзывы</h2>
+        <div class="reviews__badge-wrap">
+          <iframe
+            class="reviews__badge"
+            src="https://yandex.by/sprav/widget/rating-badge/1333463579?type=rating"
+            width="150"
+            height="50"
+            frameborder="0"
+            loading="lazy"
+            title="Рейтинг фотоцентра"
+          ></iframe>
+        </div>
+        <p class="reviews__subtitle">Отзывы с Яндекс и Google карт</p>
+        <div class="reviews__slider">
+          <button type="button" class="reviews__arrow reviews__arrow--prev" id="reviews-prev" aria-label="Предыдущий">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </button>
+          <div class="reviews__track-wrapper">
+            <div class="reviews__track" id="reviews-track">
+              <article class="card reviews__card">
+                <p class="reviews__name">Наталья Шаститко</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Фотографировалась с сыном на паспорт и визу. Фотообработка здесь на высшем уровне, фотографии получились яркими и качественными. Обслуживание мастеров всегда очень вежливое и профессиональное. Не раз обращалась в эту фотостудию, и всегда коллектив на позитиве. Большое спасибо, что вы дарите людям красоту и доброту!</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Виталия К</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Делала фото на паспорт в этой студии. Очень понравилась работа фотографа Дмитрия, так как договаривалась с ним на минимальную обработку фотографии. Поэтому фото получились очень реалистичные. И это уже не первое посещение этой студии. 10 лет назад фото на паспорт я тоже делала там же👍🏻</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Игорь Цыганков</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Пять звезд. Все культурно и очень быстро. От прихода в студию 5 минут. Обработка, распечатывание сразу. 18 рублей. Отрицательные отзывы считаю работой конкурентов. Вот. Приходите</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Виталий Михайлов</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Постоянно обслуживаюсь в этой фотостудии. Всегда отличное качество фотографий, вежливое обслуживание, прекрасные мастера. Рекомендую!</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Анна Ковалева</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Фото на паспорт — меньше 10 минут. Хорошая обработка фото. Вежливый фотограф. Остались только положительные эмоции</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Роман Б</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Хорошее место, чтобы быстро и удобно сделать, отредактировать и распечатать фото любой размерности, оно работает уже довольно много лет. Цены приемлемые</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Виктория Рутковская</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Оперативно и качественно. Удобное месторасположение. Профессиональный фотограф</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Гаррус Л</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Сделали чётко и по делу. Качество фото идеальное, как и обслуживание, подсказали, как лучше на фото</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Андрей Кныш</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Хороший фотосалон, отличный подъезд на автомобиле. Замечательное качество и обработка фотографий. Обращался по восстановлению старых фото, отреставрировали все супер. Также фоткался на документы. Однозначно рекомендую</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Ирина Светлая</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Отличный фотосалон. Много раз фотографировалась на разные виды документов, никогда никаких вопросов не возникало, визы проходили всегда и везде. Отличное качество фотографий. Фото обработка на высшем уровне. Всем рекомендую</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Людмила М</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Супер! Фоткалась на паспорт и визу сделали быстро и качественно, очень хорошее обслуживание, всем рекомендую</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Мария х</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Хорошее фото, качественно и быстро 👍🏻</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Анонимный отзыв</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Супер! Мне очень понравилось! Обслуживание прекрасное, внимание к пожеланию клиента... и качество работы! Рекомендую</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Виктор Александрович</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Делали семейное фото во время прогулки. Очень вдохновил фотограф: подсказывал, как лучше стать и куда «повернуть голову». Теперь это стало нашей семейной традицией. Будем делать фотографии и смотреть, как мы меняемся. Это же главное в жизни</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Пётр Алексеев</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Печатаюсь здесь уже 6 лет. Качество фото очень хорошее, фотографы — профессионалы. Выражаю свою благодарность</p>
+              </article>
+              <article class="card reviews__card">
+                <p class="reviews__name">Оксана</p>
+                <div class="reviews__rating">★★★★★</div>
+                <p class="reviews__text">Делала фото на документы! Отличная работа! Фото супер, Александр профессионал своего дела, всем рекомендую</p>
+              </article>
+            </div>
+          </div>
+          <button type="button" class="reviews__arrow reviews__arrow--next" id="reviews-next" aria-label="Следующий">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h2 class="section-title">Контакты</h2>
+        <div class="contacts__content">
+          <div class="contacts__info">
+            <p class="contacts__address">г. Могилёв, пр-т Мира 20</p>
+            <div class="contacts__phones">
+              <a href="tel:+375296333944" class="contacts__phone">+375 29 633 39 44</a>
+              <a href="tel:+375447392136" class="contacts__phone">+375 44 739 21 36</a>
+              <a href="tel:+375222775478" class="contacts__phone">+375 22 277 54 78</a>
+            </div>
+            <div class="contacts__schedule">
+              <p class="contacts__schedule-item"><span class="contacts__schedule-label">Будни:</span> 9:00 – 19:00</p>
+              <p class="contacts__schedule-item"><span class="contacts__schedule-label">Выходные:</span> 10:00 – 16:00</p>
+            </div>
+            <div class="contacts__photos" id="contacts-photos">
+              <button type="button" class="contacts__photo-btn" aria-label="Увеличить фото">
+                <picture>
+                  <source type="image/webp" srcset="place/1-w420.webp 420w, place/1-w840.webp 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
+                  <img src="place/1-w840.jpg" srcset="place/1-w420.jpg 420w, place/1-w840.jpg 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" alt="Фотостудия фото на документы в Могилёве, вход" class="contacts__photo" data-lightbox-src="place/1.jpg" loading="lazy" decoding="async">
+                </picture>
+              </button>
+              <button type="button" class="contacts__photo-btn" aria-label="Увеличить фото">
+                <picture>
+                  <source type="image/webp" srcset="place/2-w420.webp 420w, place/2-w840.webp 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
+                  <img src="place/2-w840.jpg" srcset="place/2-w420.jpg 420w, place/2-w840.jpg 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" alt="Фотостудия фото на документы в Могилёве, интерьер" class="contacts__photo" data-lightbox-src="place/2.JPG" loading="lazy" decoding="async">
+                </picture>
+              </button>
+              <button type="button" class="contacts__photo-btn" aria-label="Увеличить фото">
+                <picture>
+                  <source type="image/webp" srcset="place/3-w420.webp 420w, place/3-w840.webp 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
+                  <img src="place/3-w840.jpg" srcset="place/3-w420.jpg 420w, place/3-w840.jpg 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" alt="Зона съёмки для фото на документы" class="contacts__photo" data-lightbox-src="place/3.jpg" loading="lazy" decoding="async">
+                </picture>
+              </button>
+              <button type="button" class="contacts__photo-btn" aria-label="Увеличить фото">
+                <picture>
+                  <source type="image/webp" srcset="place/6-w420.webp 420w, place/6-w840.webp 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
+                  <img src="place/6-w840.jpg" srcset="place/6-w420.jpg 420w, place/6-w840.jpg 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" alt="Фотостудия для срочного фото на документы" class="contacts__photo" data-lightbox-src="place/6.jpg" loading="lazy" decoding="async">
+                </picture>
+              </button>
+              <button type="button" class="contacts__photo-btn" aria-label="Увеличить фото">
+                <picture>
+                  <source type="image/webp" srcset="place/5-w420.webp 420w, place/5-w840.webp 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
+                  <img src="place/5-w840.jpg" srcset="place/5-w420.jpg 420w, place/5-w840.jpg 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" alt="Стойка приёма заказов на фото" class="contacts__photo" data-lightbox-src="place/5.jpg" loading="lazy" decoding="async">
+                </picture>
+              </button>
+              <button type="button" class="contacts__photo-btn" aria-label="Увеличить фото">
+                <picture>
+                  <source type="image/webp" srcset="place/kak_dobratsya-w420.webp 420w, place/kak_dobratsya-w840.webp 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
+                  <img src="place/kak_dobratsya-w840.png" srcset="place/kak_dobratsya-w420.png 420w, place/kak_dobratsya-w840.png 840w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw" alt="Зал фотостудии в Могилёве" class="contacts__photo" data-lightbox-src="place/kak_dobratsya.png" loading="lazy" decoding="async">
+                </picture>
+              </button>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <iframe
+              src="https://yandex.by/map-widget/v1/?z=17&ol=biz&oid=1333463579"
+              frameborder="0"
+              allowfullscreen
+              loading="lazy"
+              title="Карта с расположением фотоцентра"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+        <div class="faq__list accordion" id="faq-accordion">
+          <div class="accordion__item">
+            <button type="button" class="accordion__header">
+              <span>Сколько времени занимает съёмка?</span>
+              <span class="accordion__icon"></span>
+            </button>
+            <div class="accordion__content">
+              <p>Вся процедура — от момента, как вы заходите к нам, до готовых фотографий — занимает в среднем 10-15 минут. Мы делаем несколько кадров, вы выбираете лучший, при необходимости делаем лёгкую обработку и сразу печатаем снимки. То есть вы можете зайти к нам "по пути", а не тратить полдня.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button type="button" class="accordion__header">
+              <span>Нужно ли стоять в очереди?</span>
+              <span class="accordion__icon"></span>
+            </button>
+            <div class="accordion__content">
+              <p>Записываться заранее не обязательно — можно прийти в удобное для вас время. Очереди у нас бывают редко, а если и есть несколько человек, ожидание обычно недолгое. В часы пик (например, перед выходными или в начале недели) лучше приходить с запасом времени или позвонить и уточнить загрузку.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button type="button" class="accordion__header">
+              <span>Что если не понравится результат?</span>
+              <span class="accordion__icon"></span>
+            </button>
+            <div class="accordion__content">
+              <p>Мы всегда делаем несколько кадров, чтобы вы могли выбрать тот, который вам действительно нравится. Если ни один вариант не подошёл — без лишних вопросов переснимаем. Кроме того, если готовую фотографию не примут в госоргане или визовом центре, мы бесплатно переснимем и перепечатаем её.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button type="button" class="accordion__header">
+              <span>Какую одежду выбрать?</span>
+              <span class="accordion__icon"></span>
+            </button>
+            <div class="accordion__content">
+              <p>Для фото на документы лучше подойдёт однотонная одежда спокойных, неярких цветов — так лицо остаётся в фокусе и снимок соответствует типичным требованиям. Идеально смотрятся тёмно-синий, серый, бордовый, тёмно-зелёный. Белый и очень светлые тона могут сливаться с фоном.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button type="button" class="accordion__header">
+              <span>Можно ли фотографироваться в очках?</span>
+              <span class="accordion__icon"></span>
+            </button>
+            <div class="accordion__content">
+              <p>Да, фотографироваться в очках можно. Важно только, чтобы на снимке были чётко видны глаза, они не были с тёмными линзами и не было сильных бликов от стёкол — иначе в некоторых учреждениях фотографию могут не принять. Обычно мы сразу видим, как ложится свет, и подскажем, нужно ли чуть изменить угол или снять очки. Если вы носите очки постоянно и хотите именно в них — мы постараемся сделать так, чтобы и требования были соблюдены, и вы были довольны результатом.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button type="button" class="accordion__header">
+              <span>Допустимы ли украшения?</span>
+              <span class="accordion__icon"></span>
+            </button>
+            <div class="accordion__content">
+              <p>Небольшие украшения — серёжки, тонкая цепочка, скромный кулон — обычно допустимы для фото на документы и не мешают принятию. Крупные серьги, массивные бусы или головные уборы (если они не по религиозным или медицинским причинам) в ряде случаев могут вызвать вопросы в госорганах. Если не уверены насчёт своего аксессуара — лучше взять его с собой, и мы подскажем, будет ли снимок соответствовать типичным требованиям.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button type="button" class="accordion__header">
+              <span>Что делать, если не взял с собой форменную одежду для фотографии?</span>
+              <span class="accordion__icon"></span>
+            </button>
+            <div class="accordion__content">
+              <p>Если у вас нет при себе форменной одежды, не переживайте — мы можем с помощью специализированных программ «одеть» вас в форму на вашем фото. Для оформления такого снимка обязательно нужно предъявить действительное удостоверение соответствующей службы.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section" id="form">
+      <div class="container">
+        <h2 class="section-title">Остались вопросы?</h2>
+        <div class="form-section__content">
+          <div class="form-section__info">
+            <p class="form-section__lead">Оставьте заявку, и мы свяжемся с вами, чтобы уточнить детали и помочь выбрать удобное время</p>
+            <p class="form-section__schedule">Будни 9:00 – 19:00</p>
+            <p class="form-section__schedule">Выходные 10:00 – 16:00</p>
+            <p class="form-section__note">Заявки на сайте принимаем 24/7</p>
+          </div>
+          <form class="form form-section__form" id="contact-form">
+            <div class="form__field">
+              <label for="name" class="form__label">Имя</label>
+              <input type="text" id="name" name="name" class="form__input" placeholder="Ваше имя">
+            </div>
+            <div class="form__field">
+              <label for="phone" class="form__label">Телефон</label>
+              <input type="tel" id="phone" name="phone" class="form__input" placeholder="+375 (29) 123-45-67">
+            </div>
+            <div class="form__field">
+              <label for="comment" class="form__label">Комментарий</label>
+              <textarea id="comment" name="comment" class="form__input form__input--textarea" placeholder="Ваш вопрос" rows="4"></textarea>
+            </div>
+            <button type="submit" class="button button--primary form__submit">Отправить</button>
+            <p class="form-message succes disp" role="status">Заявка отправлена!</p>
+            <p class="form-message form-error disp" role="alert">Не удалось отправить заявку. Попробуйте позже</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__contacts">
+          <p class="footer__address">пр-т Мира 20, Могилёв</p>
+          <a href="tel:+375296333944" class="footer__phone">+375 29 633 39 44</a>
+        </div>
+        <nav class="footer__nav">
+          <details class="footer-services" id="footer-services-menu">
+            <summary class="footer__link footer-services__summary">Услуги</summary>
+            <ul class="footer-services__menu">
+              <li><a href="#service-documents" class="footer-services__link">Фото на документы</a></li>
+              <li>
+                <a href="#service-restoration" class="footer-services__link">Реставрация фотографий</a>
+                <ul class="footer-services__submenu">
+                  <li><a href="#service-restoration-damaged" class="footer-services__link footer-services__link--sub">Восстановление повреждённых снимков</a></li>
+                  <li><a href="#service-restoration-merge" class="footer-services__link footer-services__link--sub">Объединение фотографий</a></li>
+                  <li><a href="#service-restoration-color" class="footer-services__link footer-services__link--sub">Приведение фотографий из ЧБ в цветной</a></li>
+                </ul>
+              </li>
+              <li><a href="#service-print" class="footer-services__link">Печать фотографий</a></li>
+              <li><a href="#service-home" class="footer-services__link">Выезд фотографа на дом</a></li>
+            </ul>
+          </details>
+          <a href="#about" class="footer__link">О нас</a>
+          <a href="#reviews" class="footer__link">Отзывы</a>
+          <a href="#contacts" class="footer__link">Контакты</a>
+        </nav>
+      </div>
+      <p class="footer__copyright">© Фото на документы, Могилёв</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button type="button" class="lightbox__close" aria-label="Закрыть">&times;</button>
+    <button type="button" class="lightbox__prev" aria-label="Предыдущее фото">&lsaquo;</button>
+    <button type="button" class="lightbox__next" aria-label="Следующее фото">&rsaquo;</button>
+    <div class="lightbox__content">
+      <img src="" alt="Фотостудия в Могилёве — фото на документы" class="lightbox__img" id="lightbox-img">
+    </div>
+  </div>
+
+  <script src="form.min.js" defer></script>
+  <script src="script.min.js" defer></script>
+</body>
+</html>
