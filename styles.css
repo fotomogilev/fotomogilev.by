@@ -1162,6 +1162,27 @@ main > section {
   display: none;
 }
 
+/* Legal page */
+.legal-page {
+  padding-top: calc(var(--header-height) + clamp(24px, 5vw, 56px));
+  padding-bottom: clamp(34px, 6vw, 72px);
+}
+
+.legal-page h1 {
+  font-size: clamp(28px, 4.2vw, 42px);
+  line-height: 1.2;
+  margin-bottom: 22px;
+  scroll-margin-top: calc(var(--header-height) + 16px);
+}
+
+.legal-page__content {
+  max-width: 900px;
+}
+
+.legal-page__content p + p {
+  margin-top: 12px;
+}
+
 /* Footer */
 .footer {
   padding: 48px 0 30px;
@@ -1493,6 +1514,10 @@ main > section {
     padding-bottom: clamp(10px, 2vh, 18px);
   }
 
+.legal-page {
+    padding-top: calc(var(--header-height) + clamp(10px, 2vh, 18px));
+  }
+  
   .hero__container {
     min-height: calc(100svh - var(--header-height) - clamp(16px, 4vh, 32px));
     gap: clamp(8px, 1.8vh, 14px);
